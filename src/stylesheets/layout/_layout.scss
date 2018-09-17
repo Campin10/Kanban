@@ -1,0 +1,40 @@
+.app {
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: -3px 6px 10px rgba(0, 0, 0, .2);
+  margin: auto;
+  min-height: 100vh;
+  position: relative;
+
+  @media (min-width: $screen-phone) {
+    margin: 1vh auto;
+    max-width: $screen-desktop;
+    min-height: 95vh;
+    width: 95%;
+  }
+
+  @media (min-width: $screen-tablet) {
+    width: 95%;
+  }
+}
+
+.app-title {
+  border-bottom: 1px solid rgba($gray-light, .2);
+  border-top: 2px solid $accent-sec;
+  font-weight: 400;
+  margin-bottom: .5em;
+  padding: .5em 1em;
+  text-align: left;
+}
+
+.HeaderLogin{
+  float:right;
+  text-align: right;
+  height: 3.8em;
+  font-size: 100%;
+  padding: 8px;
+}
+
+.HeaderInfo{
+  float: left;
+}
